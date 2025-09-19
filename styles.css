@@ -5,13 +5,10 @@
     font-family: Arial, sans-serif;
 }
 body {
-    /* background-color: #f0f8ff; */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background: linear-gradient(135deg, #667eea, #764ba2);}
-     */
      background-image:url(ai-generated-ramadan-kareem-greeting-background-for-muslim-festival-ramadan-celebration-with-3d-lentern-photo.jpg);
     background-size: cover;
     background-position: center;
@@ -21,15 +18,13 @@ body {
 
 
 .container {
-    /* background-color: #ffffff; */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid #100c0c;
+    /* border: 1px solid #100c0c; */
     text-align: center;
     width: 700px;
-    /* background: linear-gradient(135deg, #7aa0da, #394b68); */
-
+    /* backdrop-filter: blur(10px); */
     
 }
 h3 {
@@ -59,14 +54,8 @@ p {
     margin: 10px;
     text-align: center;
     width: 85px;
-    /* background-color: gainsboro; */
-    /* padding: 10px 20px 10px 15px; */
     border-radius: 7px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    /* padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px; */
     border: 2px solid #131212;
     padding: 10px 10px;
 

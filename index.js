@@ -1,7 +1,6 @@
 
     var ramzanDate = moment("2026-02-28 00:00:00"); 
-
-  function updateCountdown() {
+  function Countdown() {
     var now = moment();
     var diff = moment.duration(ramzanDate.diff(now));
     document.getElementById("Months").textContent  = Math.floor(diff.asMonths());
@@ -12,5 +11,5 @@
     document.getElementById("seconds").textContent = diff.seconds();
   }
 
-  setInterval(updateCountdown, 1000);
+  setInterval(Countdown, 1000);
   updateCountdown();

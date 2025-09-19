@@ -20,7 +20,7 @@ body {
 .container {
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     /* border: 1px solid #100c0c; */
     text-align: center;
     width: 700px;
@@ -35,7 +35,7 @@ h3 {
     font-weight: bold;
 }
 p {
-    font-size: 24px;
+    font-size: 34px;
     color: #0d0c0c;
     margin-top: 10px;
     font-weight: bold;
@@ -51,13 +51,13 @@ p {
 }
 .time-section {
     display: inline-block;
-    margin: 10px;
+    /* margin: 10px; */
     text-align: center;
-    width: 85px;
+    width: 98px;
     border-radius: 7px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border: 2px solid #131212;
-    padding: 10px 10px;
+    padding: 5px;
 
 
 }

@@ -9,7 +9,9 @@
     document.getElementById("hours").textContent   = diff.hours();
     document.getElementById("minutes").textContent = diff.minutes();
     document.getElementById("seconds").textContent = diff.seconds();
+ 
   }
 
-  setInterval(Countdown, 1000);
   Countdown();
+  setInterval(Countdown, 1000);
+

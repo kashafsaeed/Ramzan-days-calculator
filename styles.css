@@ -19,24 +19,24 @@ body {
 
 .container {
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     /* border: 1px solid #100c0c; */
     text-align: center;
     width: 700px;
-    /* backdrop-filter: blur(10px); */
+    backdrop-filter: blur(10px);
     
 }
 h3 {
     margin-bottom: 20px;
-    color: #0a0909;
+    color: #050404;
     font-size: 20px;
     text-transform: capitalize;
     font-weight: bold;
 }
 p {
     font-size: 34px;
-    color: #0d0c0c;
+    color: #040404;
     margin-top: 10px;
     font-weight: bold;
 }
